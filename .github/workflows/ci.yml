@@ -17,7 +17,7 @@ jobs:
       - name: Comprobar index.html
         run: test -f index.html
 
-      - name: Comprobar Dockerfile
+      - name: Comprobar dockerfile
         run: test -f dockerfile
 
       - name: Construir imagen Docker
